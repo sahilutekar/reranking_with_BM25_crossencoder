@@ -6,6 +6,5 @@ This app performs semantic search using BM25 for retrieval and a CrossEncoder fo
 ## Run Locally
 streamlit run streamlit_app.py
 
-## Deploy on Streamlit Cloud
-Upload this repo to GitHub and deploy at:
-https://share.streamlit.io/
+## Deployed on Streamlit Cloud
+https://rerankingwithbm25crossencoder-tfnxvcmgeccejldrstqsbv.streamlit.app/
