@@ -1,0 +1,25 @@
+# Core FastAPI + server
+fastapi==0.110.0
+uvicorn[standard]==0.29.0
+
+# Text processing
+nltk==3.8.1
+
+# BM25 retrieval
+rank-bm25==0.2.2
+
+# PyTorch (Windows-compatible)
+torch==2.2.2
+torchvision==0.17.2
+torchaudio==2.2.2
+
+# HuggingFace ecosystem (full)
+transformers[torch]==4.39.0
+accelerate==0.28.0
+sentence-transformers==2.6.0
+
+# Model weight safety & serialization
+safetensors==0.4.3
+
+# Required by HF models
+protobuf==4.25.3
